@@ -1,5 +1,7 @@
 <?php
-
+    // {./} USado para indicar que estan en el mismo nivel 
+    require_once "./config/app.php";
+    require_once "./autoload.php";
 
 /** Crud
  * Create
