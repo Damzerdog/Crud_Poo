@@ -1,4 +1,5 @@
 <?php
+//https://www.youtube.com/watch?v=EQmcvuGiayM&list=PLH_tVOsiVGzmnl7ImSmhIw5qb9Sy5KJRE&index=143
     // {./} USado para indicar que estan en el mismo nivel 
     require_once "./config/app.php";
     require_once "./autoload.php";

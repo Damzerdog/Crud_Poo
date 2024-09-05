@@ -2,8 +2,8 @@
 
     namespace App\Controllers;
     //Para cada controlador pertenece un modelo
-    use App\Models\viewsModel;
-    class viewsController extends viewsModel{
+    use App\Models\ViewsModel;
+    class viewsController extends ViewsModel{
         //Permitir acceder desde fuera de la clase 
         public function obtenerVistasControlador($vista){
             if($vista!=""){

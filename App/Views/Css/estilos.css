@@ -2,3 +2,18 @@ body,html{
     height: 100%;
     width: 100%;
 }
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex; /* Convierte un contenedor en un contenedor flexible, lo que permite distribuir y alinear sus elementos hijos de manera eficiente */
+    justify-content: center;
+    align-items: center;
+}
+/*Busca el .login dentro de un main-container*/
+.main-container > .login,
+.main-container > .hero-body {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+}

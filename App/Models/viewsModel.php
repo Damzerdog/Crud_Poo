@@ -2,7 +2,7 @@
     namespace App\Models;
 
     //Modelo para controlas las vistas
-    class viewsModel{
+    class ViewsModel{
         //Solo se usara en la clase y en sus clases heredadas
         protected function obtenerVistasModelo($vista){
             //Limitamos una lista de urls validas para el sistema
